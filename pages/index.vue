@@ -1,10 +1,8 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "ViipeR",
-  description: "Web Developer, Designer, Freelancer",
+  title: "Taskfinder",
+  description: "Organize your tasks and your current bugs in your application.",
 });
-
-import { ref } from "vue";
 
 const scrollToSection = () => {
   const section = document.getElementById("getting-started");

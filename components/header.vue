@@ -6,7 +6,10 @@
         <li><a href="#">Home</a></li>
       </ul>
     </nav>
-    <div class="menu-toggle" @click="toggleMenu">
+    <div
+      :class="{ 'menu-toggle': true, open: isMenuOpened }"
+      @click="toggleMenu"
+    >
       <span></span>
       <span></span>
       <span></span>
@@ -81,6 +84,18 @@ export default {
   background: #fff;
   margin: 4px 0;
   transition: all 0.3s;
+}
+
+.menu-toggle.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 10px);
+}
+
+.menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -10px);
 }
 
 @media (max-width: 768px) {

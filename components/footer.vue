@@ -15,8 +15,6 @@ export default defineComponent({
   <div class="footer">
     <div class="footer-links">
       <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
     </div>
     <div class="footer-text">
       <p>&copy; {{ date }} ViipeR. All rights reserved.</p>
