@@ -153,7 +153,7 @@ Project Link: [https://github.com/ItsMeViipeR/taskfinder](https://github.com/Its
 [issues-shield]: https://img.shields.io/github/issues/ItsMeViipeR/taskfinder.svg?style=for-the-badge
 [issues-url]: https://github.com/ItsMeViipeR/taskfinder/issues
 [license-shield]: https://img.shields.io/github/license/ItsMeViipeR/taskfinder.svg?style=for-the-badge
-[license-url]: https://github.com/ItsMeViipeR/taskfinder/blob/master/LICENSE.txt
+[license-url]: https://github.com/ItsMeViipeR/taskfinder/blob/main/LICENSE.txt
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [TailwindCSS]: https://img.shields.io/badge/TailwindCSS-35495E?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4
